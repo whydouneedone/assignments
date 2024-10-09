@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  "Times New Roman" , serif;
+}
+
+body {
+    background-color: #f2f2f2;
+    padding: 15px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.17);
+}
+
+header {
+    text-align: center;
+    padding: 15px 0;
+}
+
+.profile-img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 5px;
+    color: #555;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+    padding: 10px 0;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 20px;
+    border-bottom: 2px solid #000;
+    padding-bottom: 5px;
+    margin: 18px 0;
+}
+
+.skills ul, .achievements ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills ul li, .achievements ul li {
+    position: relative;
+    padding-left: 25px;
+    background-color: #f0f0f0;
+    padding: 8px;
+    /* border-radius: 3px; */
+}
+
+.skills ul li, .achievements ul li {
+    position: relative;
+    padding-left: 10px; 
+    border-left: 3.5px solid #000; 
+    margin-bottom: 5px;
+}
+
+.experience .job {
+    margin-bottom: 20px;
+}
+
+.experience h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.experience .dates {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.education table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.education table, .education th, .education td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.education th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.form_group {
+    margin-bottom: 10px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #28a745;
+    color: grey;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #218838;
+}
+
+footer {
+    font-size: 12px;
+    text-align: center;
+    padding: 10px 0;
+    /* background-color: #f2f2f2; */
+    margin-top: 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .profile-img {
+        width: 80px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .skills ul li, .achievements ul li {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    .profile-img {
+        width: 60px;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    .skills ul li, .achievements ul li {
+        padding: 8px;
+    }
+
+    .experience h3 {
+        font-size: 18px;
+    }
+}
