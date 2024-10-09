@@ -137,7 +137,7 @@ form input, form textarea {
 
 form button {
     background-color:#FFDE21;
-    color: grey;
+    color: black;
     padding: 10px 15px;
     border: none;
     border-radius: 4px;
@@ -145,7 +145,7 @@ form button {
 }
 
 form button:hover {
-    background-color: #218838;
+    background-color: #CCFF00;
 }
 
 footer {
